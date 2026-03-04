@@ -1,0 +1,57 @@
+* {
+  text-align: center;
+  margin: 16px auto;
+  background-color: rgb(248, 210, 255); 
+  /* a bit of an eyesore */
+    font-family:sans-serif;
+    /* need custom */
+}
+
+h1 {
+    display: inline-block;
+    background-color: rgb(255, 237, 214);
+    padding: 50px 70px;
+    font-size: 50px;
+    color: rgb(29, 12, 2);
+    border-color:  rgb(29, 12, 2);
+    border-style: double;
+    border-width: 15px;
+}
+
+a {
+    display: block;
+    /* the link is the whole width */
+    color: rgb(29, 12, 2);
+    font-size: 30px;
+    text-decoration: none;
+    /* removes underline */
+}
+
+img {
+    display: block;
+}
+
+h3 {
+    background-color: rgba(137, 43, 226, 0.261);
+    width: 25%;
+    font-size: 32px;
+}
+
+p,
+ul,
+ol {
+    width: 50%;
+    font-size: 24px;
+    text-align:justify;
+}
+
+li {
+    padding: 5px;
+    background-color: rgba(255, 252, 217, 0.746);
+}
+
+button {
+   background-color: rgba(137, 43, 226, 0.261);
+    font-size: 32px;
+    padding: 5px 20px;
+}
